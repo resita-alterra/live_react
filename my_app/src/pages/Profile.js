@@ -17,9 +17,8 @@ const Profile = props => {
     return (
       <div>
         <Header />
-        <p>Hello</p>
         <h2>Hello, {username}</h2>
-        <img src={avatar} />
+        <img src={avatar} style={{ width: 100 }} />
         <p>username : {username}</p>
         <p>Email : {email}</p>
       </div>
